@@ -34,6 +34,10 @@ router.use(apiRoutes);
 // Or use with specific route prefix (/v1/evaluate, /v1/rules, etc.)
 router.use("/v1", apiRoutes);
 
+router.get("/", (ctx) => {
+  ctx.body = "See https://publi.codes/api-rest for the list of routes";
+});
+
 app.use(router.routes());
 app.use(router.allowedMethods());
 
