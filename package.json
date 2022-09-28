@@ -19,6 +19,11 @@
   },
   "homepage": "https://github.com/datagir/datagir-api#readme",
   "dependencies": {
-    "typescript": "^4.8.4"
+    "@koa/cors": "^3.4.1",
+    "@koa/router": "^12.0.0",
+    "@publicodes/api": "^1.0.0-beta.54",
+    "publicodes": "^1.0.0-beta.54",
+    "typescript": "^4.8.4",
+    "yaml": "^2.1.1"
   }
 }
