@@ -1,0 +1,23 @@
+{
+  "name": "datagir-api",
+  "version": "0.0.1",
+  "description": "Un test de l'usage du système d'API natif de publicodes",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datagir/datagir-api.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/datagir/datagir-api/issues"
+  },
+  "homepage": "https://github.com/datagir/datagir-api#readme",
+  "dependencies": {
+    "typescript": "^4.8.4"
+  }
+}
